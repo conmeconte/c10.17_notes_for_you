@@ -118,6 +118,7 @@ class Notes extends Component {
         let { interface_obj } = this.props;
         const { value } = this.state;
         const content = JSON.stringify(value.toJSON());
+        console.log(content);
         axios.put('/api/note', {
             document: { content },
             binderID: interface_obj.binder_id,
