@@ -13,6 +13,8 @@ import '../assets/css/panel.css';
 import '../assets/css/slides.css';
 import '../assets/css/video-add-modal.css';
 import '../assets/css/video.css';
+import Privacy from './privacy_policy'; 
+
 
 
 
@@ -39,6 +41,7 @@ class App extends Component {
                     <div>
                         <Route path="/main" component={Dashboard} />
                         <Route exact path="/" component={LandingPage} />
+                        <Route path="/privacy" component={Privacy} />
                     </div>
                 </BrowserRouter>
 
