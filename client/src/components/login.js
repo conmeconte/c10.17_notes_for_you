@@ -16,7 +16,7 @@ class Login extends Component {
                             <a href="/auth/google"><img src={googleButton} /></a>
                         </span>
                         <br/>
-                        <Link to="/privacy">Privacy Policy</Link>
+                        <Link to="/privacy" target="_blank">Privacy Policy</Link>
                     </div>
                 );
             default:
