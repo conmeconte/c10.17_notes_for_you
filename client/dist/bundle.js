@@ -26771,7 +26771,7 @@ var Login = function (_Component) {
                         _react2.default.createElement('br', null),
                         _react2.default.createElement(
                             _reactRouterDom.Link,
-                            { to: '/privacy' },
+                            { to: '/privacy', target: '_blank' },
                             'Privacy Policy'
                         )
                     );
