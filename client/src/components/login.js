@@ -20,11 +20,14 @@ class Login extends Component {
     render() {
         // console.log(this.props);
         return (
-            <span>
-                {/* <ul className="right"> */}
-                {this.renderContent()}
-                {/* </ul> */}
-            </span>
+            <div>   
+                <span>
+                    {this.renderContent()}
+                </span>
+                <br/>
+                <a href="https://docs.google.com/document/d/1m0GuxA6sBuDxuvYBVvk0rvynnn6jfVuN9AFvxeNqS9Q/edit?usp=sharing" target="_blank">Our Privacy Policy</a>
+            </div>
+
         );
     }
 }
