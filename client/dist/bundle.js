@@ -26774,9 +26774,19 @@ var Login = function (_Component) {
         value: function render() {
             // console.log(this.props);
             return _react2.default.createElement(
-                'span',
+                'div',
                 null,
-                this.renderContent()
+                _react2.default.createElement(
+                    'span',
+                    null,
+                    this.renderContent()
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'a',
+                    { href: 'https://docs.google.com/document/d/1m0GuxA6sBuDxuvYBVvk0rvynnn6jfVuN9AFvxeNqS9Q/edit?usp=sharing', target: '_blank' },
+                    'Our Privacy Policy'
+                )
             );
         }
     }]);
